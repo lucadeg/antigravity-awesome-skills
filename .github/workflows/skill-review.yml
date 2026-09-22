@@ -1,8 +1,8 @@
+
 name: Skill Review & Optimize
 on:
-  pull_request:
-    paths: ['**/SKILL.md']
-
+  workflow_dispatch:
+  # Automatic triggers removed; invoke through FounderOS/Admin Gate.
 jobs:
   review:
     runs-on: ubuntu-latest

@@ -1,10 +1,9 @@
+
 name: Repo Hygiene
 
 on:
   workflow_dispatch:
-  schedule:
-    - cron: "0 7 * * 1"
-
+  # Automatic triggers removed; invoke through FounderOS/Admin Gate.
 permissions:
   contents: write
 
